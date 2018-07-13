@@ -8,11 +8,8 @@ class Book
   
   attr_accessor :language, :author, :genre, :page_count
   
-  def initialize(title, author, genre, page_count)
+  def initialize(title)
     @title = title
-    @author = author
-    @genre = genre
-    @page_count = page_count
   end 
   
   
@@ -22,4 +19,3 @@ class Book
   
 end 
 
-great_gatsby = Book.new("The Great Gatsby", "Fitzgerald", "Fiction", 200)
